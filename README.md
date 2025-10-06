@@ -19,7 +19,7 @@ This modular approach enables **block reuse**, **clear hierarchy**, and validati
 ## 🧩 Project structure
 
 ### Half Adder
-Basic block performing `S = A ⊕ B` and `C = A · B`, implemented using only NAND gates.
+Basic block performing `S = A ⊕ B` and `C_b = A · B`, implemented using only NAND gates.
 
 **Schematic (Virtuoso)**  
 ![schematic_half_adder](./Figures/schematic_half_adder.png)

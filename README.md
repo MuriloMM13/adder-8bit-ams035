@@ -59,13 +59,14 @@ for example using `a_s<7:0> = 11111111`, `b_s<7:0> = 00000000`, and `C_in = 1`.
 
 ## ⏱️ Critical path estimation
 Since the **carry** traverses all 8 stages, it dominates the total propagation delay.  
-Each **1-bit full adder** contributes with two NAND gate delays, and the last stage adds three:
+Each **1-bit full adder** contributes two NAND gate delays, and the last stage adds three:
 
-\[
+$$
 \tau = 7 \cdot 2\alpha + 1 \cdot 3\alpha = 17\alpha
-\]
+$$
 
 where $\alpha$ is the delay of a single **NAND** gate.
+
 
 ---
 

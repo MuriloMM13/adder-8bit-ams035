@@ -66,9 +66,3 @@ $$
 $$
 
 where $\alpha$ is the delay of a single **NAND** gate.
-
-
----
-
-## 🗂️ Suggested folder structure
-
